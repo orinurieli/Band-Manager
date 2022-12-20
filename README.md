@@ -36,7 +36,7 @@ typedef struct
 1. If a musician knows how to play x instruments he will have a total of x votes from MusiciansCollection.
 2. The number of members of the MusiciansCollection array will be the number of types of musical instruments.
 
-![Music.jpg](https://drive.google.com/uc?id=17kP3_kUpAjaHEaJWg4CGSPq0g7_Y6cgm)
+![Music.jpg](https://user-images.githubusercontent.com/74871538/208752159-aa662966-9cf3-4393-95bd-8c15b4ab4f32.svg)
 
 
 ## Finding a match
