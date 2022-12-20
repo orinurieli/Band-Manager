@@ -35,8 +35,8 @@ typedef struct
 - We maintained an array of arrays called MusiciansCollection of pointers to musicians in the MusiciansGroup array.
 1. If a musician knows how to play x instruments he will have a total of x votes from MusiciansCollection.
 2. The number of members of the MusiciansCollection array will be the number of types of musical instruments.
-
 ![Music.jpg](https://drive.google.com/uc?id=17kP3_kUpAjaHEaJWg4CGSPq0g7_Y6cgm)
+
 
 ## Finding a match
 Here's the code for maintaing the musicians array and finding the match based on their skills
