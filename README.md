@@ -17,16 +17,18 @@ The purpose of the program is to organize performances by assigning musicians fr
 - Bulding Musicians Stock.
 1. We saved all the musicians that are listed in a storage file which is an array of pointers to Musician named MusiciansGroup.
 2. We used structs as wise:
+
 ```c
 typedef struct
 {
-מספר מזהה של כלי נגינה // ;insId short unsigned
-מחיר שדורש הנגן עבור נגינה בכלי זה // ;price float
+ short unsigned insId;
+ float price;
 } MusicianPriceInstrument;
+
 typedef struct
 {
-מערך של השמות המרכיבים את שמו המלא // ;name **char
-כלי הנגינה ברשימה מקושרת של MusicianPriceInstrument; // instruments MPIList
+ **char name;
+ MusicianPriceInstrument; // instruments MPIList
 } Musician;
 
 ```
